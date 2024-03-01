@@ -1,1 +1,11 @@
 git init // Para inicializar el directorio actual como un repositorio local
+
+// Actualización
+git add . // Añade todos los archivos del directorio actual a stage
+git commit -m "Inicialización del repositorio" // Crea un commit con los archivos que están en stage y con un mensaje descriptivo
+
+git tag -a R1 -m "Versión R1" // Crea una etiqueta anotada con nombre R1 y con un mensaje descriptivo de la versión
+
+git checkout -b Mejoras // Crea una rama llamada "Mejoras" y se cambia automáticamente a esa rama
+
+git checkout main
