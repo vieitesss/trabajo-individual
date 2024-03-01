@@ -27,3 +27,11 @@ git add .
 git commit -m "Actualización del documento de control de cambios a v3 de nuevo"
 
 git tag -a R3 -m "Versión R3"
+
+// Push a un repositorio remoto
+// Añadimos un nuevo repositorio remoto utilizando SSH
+git remote add origin git@vieitesss_github:vieitesss/trabajo-individual.git
+// Forzamos el renombrado de la rama actual a main, aunque ya exista
+git branch -M main
+// Enviamos los cambios locales al repositorio remoto estableciendo una relación de seguimiento la rama local y la remota
+git push -u origin main
