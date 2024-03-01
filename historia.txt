@@ -15,3 +15,15 @@ git commit -m "Actualización del documento de control de cambios"
 git checkout main // Cambia a la rama main
 
 git merge Mejoras // Mezcla la rama Mejoras con la rama actual (main)
+
+// Actualización
+git add .
+git commit -m "Actualización del documento de control de cambios a v3"
+
+git tag -a R2 -m "Versión R2"
+
+// Actualización
+git add .
+git commit -m "Actualización del documento de control de cambios a v3 de nuevo"
+
+git tag -a R3 -m "Versión R3"
