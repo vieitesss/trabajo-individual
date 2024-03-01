@@ -8,4 +8,8 @@ git tag -a R1 -m "Versión R1" // Crea una etiqueta anotada con nombre R1 y con 
 
 git checkout -b Mejoras // Crea una rama llamada "Mejoras" y se cambia automáticamente a esa rama
 
-git checkout main
+// Actualización de la rama Mejoras
+git add .
+git commit -m "Actualización del documento de control de cambios"
+
+git checkout main // Cambia a la rama main
