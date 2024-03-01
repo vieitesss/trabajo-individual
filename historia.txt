@@ -35,3 +35,12 @@ git remote add origin git@vieitesss_github:vieitesss/trabajo-individual.git
 git branch -M main
 // Enviamos los cambios locales al repositorio remoto estableciendo una relación de seguimiento la rama local y la remota
 git push -u origin main
+
+git pull origin main
+
+git diff historia.txt
+
+// Última actualización
+git add .
+git commit -m "Última actualización del repositorio"
+git push
