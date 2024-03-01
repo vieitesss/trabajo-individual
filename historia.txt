@@ -1,0 +1,1 @@
+git init // Para inicializar el directorio actual como un repositorio local
