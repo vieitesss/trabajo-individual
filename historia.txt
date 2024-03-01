@@ -13,3 +13,5 @@ git add .
 git commit -m "Actualización del documento de control de cambios"
 
 git checkout main // Cambia a la rama main
+
+git merge Mejoras // Mezcla la rama Mejoras con la rama actual (main)
